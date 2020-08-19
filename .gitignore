@@ -1,0 +1,5 @@
+# Composer
+/src/api/vendor
+
+# Config files
+config.php
