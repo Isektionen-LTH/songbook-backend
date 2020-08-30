@@ -9,3 +9,5 @@ RewriteRule .* /api/%1.php?uuid=%2 [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule .* %{REQUEST_URI}.php?%{QUERY_STRING} [L]
+
+Header set Access-Control-Allow-Origin "*"
